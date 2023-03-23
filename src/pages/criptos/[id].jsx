@@ -28,8 +28,8 @@ export const getStaticProps = async ({ params }) => {
 
 export const getStaticPaths = async () => {
     const paths = [
-        { params: { id: '1' } },
-        { params: { id: '2' } },
+        { params: { id: 'bitcoin' } },
+        { params: { id: 'ethereum' } },
     ]
     return {
         paths,
