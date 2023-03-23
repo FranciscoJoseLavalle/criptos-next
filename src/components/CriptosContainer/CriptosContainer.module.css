@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cripto_list {
+    background-color: #223;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem;
+    border-radius: .75rem;
+    width: 90%;
+    max-width: 50rem;
+    box-shadow: #0009 0 0 20px 2px;
+}
+
+.cripto_list a {
+    color: #ddd;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.cripto_list th,
+.cripto_list td {
+    padding: .5rem;
+}

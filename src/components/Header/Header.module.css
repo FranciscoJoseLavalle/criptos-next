@@ -1,0 +1,58 @@
+.header {
+    background-color: #223;
+    margin-bottom: 2rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.header * {
+    color: #eee;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.header span {
+    font-weight: 600;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.header nav,
+.header ul {
+    height: 100%;
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 650px) {
+    .header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+
+.form * {
+    color: #000;
+}

@@ -1,0 +1,9 @@
+.cripto__cripto_field {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.cripto img {
+    width: 2rem;
+}

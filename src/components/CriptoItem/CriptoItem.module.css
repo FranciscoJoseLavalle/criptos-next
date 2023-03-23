@@ -1,0 +1,15 @@
+.cripto {
+    color: #eee;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 90%;
+    max-width: 50rem;
+    margin: auto;
+    background-color: #223;
+    border-radius: .75rem;
+    box-shadow: #0009 0 0 20px 2px;
+}
+
+.cripto_info {}
